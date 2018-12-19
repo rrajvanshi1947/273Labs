@@ -1,0 +1,3 @@
+2018-10-29T02:01:50.498Z::[Backend/logrunner.js] [32minfo[39m: App has been started in info mode
+2018-10-29T02:01:50.503Z::[Backend/logrunner.js] [34mdebug[39m: app has been started in debug mode
+2018-10-29T02:01:50.503Z::[Backend/logrunner.js] [31merror[39m: met an error

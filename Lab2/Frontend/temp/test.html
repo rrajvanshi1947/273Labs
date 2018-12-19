@@ -1,0 +1,33 @@
+<html>
+  <head>
+  <title>My Now Amazing Webpage</title>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/> </head>
+  <body bgcolor="black">
+<div></div>
+  <div class="your-class">
+    <img src ="/Users/shubham/Documents/MomnDadTrip/IMG_0082.JPG">
+    <img src ="/Users/shubham/Documents/MomnDadTrip/IMG_0081.JPG">
+    <img src ="/Users/shubham/Documents/MomnDadTrip/IMG_0083.JPG">
+    <img src ="/Users/shubham/Documents/MomnDadTrip/IMG_0084.JPG">
+    <img src ="/Users/shubham/Documents/MomnDadTrip/IMG_0085.JPG">
+    <img src ="/Users/shubham/Documents/MomnDadTrip/IMG_0086.JPG">
+  </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.your-class').slick({
+        "slidesToShow": 2, "slidesToScroll": 2,
+        dots:true,arrows:true,adaptiveHeight: true
+      });
+    });
+  </script>
+
+  </body>
+</html>

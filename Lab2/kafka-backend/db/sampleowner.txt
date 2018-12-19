@@ -1,0 +1,80 @@
+{
+	"_id" : ObjectId("5bdb4b5cdc2f311c97f12907"),
+	"firstname" : "Test",
+	"lastname" : "Check",
+	"email" : "testa.caczxk1nm@gmail.com",
+	"password" : "$2b$10$YrHakQbWGk9dq9sqGt75EefkGHeSpHQM.fAnw6zdncbPMEQ.UXN56",
+	"ownerid" : 3,
+	"propertydetails" : [
+		{
+			"propertyimages" : [
+				"photo1538864571869.png",
+				"photo1538864571873.png",
+				"photo1538864571880.png",
+				"photo1538864571883.png",
+				"photo1538864571887.png"
+			],
+			"propertypreviousbookings" : [ ],
+			"_id" : ObjectId("5bdb4ba2dc2f311c97f12908"),
+			"propertyunit" : "House 46",
+			"propertycity" : "Santa Clara",
+			"propertystate" : "California",
+			"propertycountry" : "United States",
+			"propertyzipcode" : 95784,
+			"propertyaddress" : "ajbdjqwdfqk s2",
+			"propertyaccomodates" : 8,
+			"propertybathrooms" : 2,
+			"propertybedrooms" : 3,
+			"propertydescription" : "This is a wonderful property",
+			"propertyheadline" : "This is headline",
+			"propertytype" : "Villa",
+			"propertycostperday" : "$250",
+			"propertyenddate" : ISODate("2018-12-31T00:00:00Z"),
+			"propertyminstaydays" : 2,
+			"propertystartdate" : ISODate("2018-12-01T00:00:00Z")
+		}
+	],
+	"__v" : 0
+}
+
+
+
+{
+	"_id" : ObjectId("5bd7fa8ac856d64607279572"),
+	"firstname" : "Simran",
+	"lastname" : "Kaur",
+	"email" : "simkaur@yahoo.com",
+	"password" : "$2b$10$ZRVSV5tfkCPcNn9GokqpQOq99VkMJOZloQPDbJy3hO2dmUZu6WkIy",
+	"phone" : 6692644543,
+	"aboutme" : "I love moving from one place to another",
+	"city" : "San Jose",
+	"country" : "United States",
+	"company" : "Google",
+	"school" : "SJSU",
+	"hometown" : "San Jose",
+	"languages" : "English",
+	"gender" : "Male",
+	"imagelocation" : "/Images/Profile/user3.jpg",
+	"travelerid" : 5,
+	"trips" : [
+		{
+			"_id" : ObjectId("5bd7fa8ac856d64607279573"),
+			"city" : "Florida",
+			"country" : "United States",
+			"startdate" : ISODate("2018-10-21T00:00:00Z"),
+			"enddate" : ISODate("2018-10-23T00:00:00Z")
+		}
+	],
+	"__v" : 0,
+	"messages" : [
+		{
+			"messages" : [
+				"Hello, I am interested in renting your property. What would be a good time to call you?"
+			],
+			"_id" : ObjectId("5bdb639c3ffd094454397766"),
+			"ownerid" : 3
+		}
+	]
+}
+
+
